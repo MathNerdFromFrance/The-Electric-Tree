@@ -3911,7 +3911,7 @@ addLayer("i", {
         },
         25: {
             title: "Hyperinflation",
-            description: "Inflation boosts infation again",
+            description: "Inflation boosts inflation again",
             cost() { return new Decimal("1e5000000") },
             unlocked() { return player.i.points.gte("1e100000") || hasUpgrade("i", 25) },
             effect() { 
